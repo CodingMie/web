@@ -2,12 +2,14 @@
 <html>
 <head>
 	<style>
-		.bold{font-weight: bold;}
+		li.bold span {font-weight: bold;}
 		.size{font-size:11pt; font-family: Georgia, Garamond, serif;}
-		.hstyle{font-family: "Century Gothic", "Futura", Verdana, sans-serif;background-color: #F0F0F0; color: #A4A400; text-decoration: underline;}
-		h1 {font-size : 22pt; text-align: center;}
-		h2{font-size: 18pt; text-align: left;}
-		p {font-style: italic;}
+		.hstyle{font-family: "Century Gothic", "Futura", Verdana, sans-serif;background-color: #F0F0F0; color: #A4A400;text-decoration: underline;}
+		h1 {font-size : 22pt; text-align: center; font-weight: bold}
+		h2{font-size: 18pt; text-align: left;font-weight: normal;}
+		blockquote {font-style: italic;background-color: #FFFFC8;}
+		a {text-decoration: underline; color: #A4A400}
+		.picborder{border: solid;border-color: #A4A400; border-width: 2px}
 	</style>
 
 </head>
@@ -42,8 +44,8 @@
 	<div>
 		<h2 class = "hstyle">DIRECTIONS</h2>
 		<ol class = "size">
-			<li><strong>Preheat Oven:</strong>Preheat oven to 350 degrees F (175 degrees C).</li>
-			<li><strong>Make Lemon Filling:</strong> In a medium saucepan</li>
+			<li class = "bold"><span>Preheat Oven:</span>Preheat oven to 350 degrees F (175 degrees C).</li>
+			<li class = "bold"><span>Make Lemon Filling:</span> In a medium saucepan</li>
 				<ul>
 				<li>Whisk together 1 cup sugar, flour, cornstarch, and salt.</li>
 				<li>Stir in water, lemon juice and lemon zest.</li>
@@ -55,28 +57,32 @@
 				<li>Remove from heat.</li>
 				<li>Pour fifing into baked pastry shell.</li>
 				</ul>
-			<li><strong>Make Meringue:</strong> In a large glass or metal bowl</li>
+			<li class = "bold"><span>Make Meringue:</span> In a large glass or metal bowl</li>
 				<ul>
 				<li>Whip egg whites until foamy.</li>
 				<li> Add sugar gradually, and continue to whip until stiff peaks form.</li>
 				<li>Spread meringue over pie, sealing the edges at the crust.</li>
 				</ul>
-			<li><strong>Bake:</strong> Bake in preheated oven for 10 minutes, or until meringue is golden brown.</li>
+			<li class = "bold"><span>Bake:</span> Bake in preheated oven for 10 minutes, or until meringue is golden brown.</li>
 		</ol>
 	</div>
 	<hr />
 	<div>
 		<h2 class = "hstyle">UESER COMMENTS</h2>
-		<p>This is a very fun recipe to follow, because Grandma makes it sweet and simple. This pie is thickened with cornstarch andflour in addition to egg yolks, and contains no milk.</p>
-		<p>- Emilie S.</p>
-		<p>Q: What do you call an ape who loves pie?<br />A: A meringue-utan.</p>
-		<p>- Vickie K.</p>
+		<blockquote class = "size">This is a very fun recipe to follow, because Grandma makes it sweet and simple. This pie is thickened with cornstarch andflour in addition to egg yolks, and contains no milk.
+		<br /><br />- Emilie S.</blockquote>
+		<blockquote class = "size">Q: What do you call an ape who loves pie?<br />A: A meringue-utan.
+			<br /><br />- Vickie K.</blockquote>
 	</div>
-	<div>
+	<div class = "size">
 		<h2 class = "hstyle">LINKS</h2>
-		<p><a href="/index.html">home</a></p>
-		<p><a href="https://www.google.com.hk/search?q=lemon+meringue+pie+recipe.">Search for other lemon meringue pie recipes</a></p>
-
+		<a href="https://www.google.com.hk/search?q=lemon+meringue+pie+recipe.">Search for other lemon meringue pie recipes</a><br />
+		<a href="/index.html">Home</a>
+	</div>
+	<br />
+	<div>
+		<a href="http://validator.w3.org/check/referer"><img class = "picborder" src="valid-xhtml11.png" /></a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer"><img class = "picborder" src="vcss.gif" /></a>
 	</div>
 </body>
 </html>
