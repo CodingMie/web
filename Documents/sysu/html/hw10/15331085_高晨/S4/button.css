@@ -1,0 +1,202 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+/*style for the total botton's position*/
+#at-plus-container
+{
+    height: 0;
+    width: 0;
+    border: 0;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    transition: all 0.5s 0.4s;
+}
+
+/*style for the block of the chosen area*/
+#control-ring-container
+{
+    left: -84px;
+    top: -37px;
+    width: 0;
+    position: absolute;
+}
+
+#at-plus-container:hover #control-ring-container
+{
+    width: 130px;
+    height: 130px;
+}
+
+.apb
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*style for @ icon*/
+.icon
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: rgba(48, 63, 159, 0.5);
+    background-image: url(images/atplus_white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s 0.4s;
+}
+
+#at-plus-container:hover .icon
+{
+    background-color: rgba(48, 63, 159, 1);
+    background-image: url(images/atplus_green.png);
+    top: -15px;
+    left: -15px;
+    width: 55px;
+    height: 55px;
+    transition: all 0.5s;
+}
+
+/*style for the text in botton list*/
+li
+{
+    font-size: 17px;
+}
+
+/*style for list icon in botton*/
+#control-ring
+{
+    list-style: none;
+    padding-left: 18px;
+    margin-top: 8px;
+}
+
+/*style for info-bar and icons in it*/
+#info-bar
+{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 18px;
+    left: 18px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+#at-plus-container:hover #info-bar
+{
+    background-color: rgba(100,100,100,0.8);
+    height: 130px;
+    width: 130px;
+    top: -157px;
+    left: -52px;
+    line-height: 130px;
+    color: #24b274;
+    font-size: 50px;
+}
+
+/*style for all the little roundness behind*/
+.button, .unread
+{
+    opacity: 0;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.button
+{
+    color: rgb(88, 193, 147);
+    background-color: rgba(48, 63, 159, 1);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    left: 82px;
+    top: 35px;
+    text-align: center;
+    line-height: 35px;
+    transition: all 0.5s;
+}
+
+span
+{
+    color: white;
+}
+
+ .unread
+{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    left: 22px;
+    top: -5px;
+}
+
+#at-plus-container:hover .button,
+#at-plus-container:hover .unread
+{
+    opacity: 1;
+}
+
+/*style for the little icons' position*/
+#at-plus-container:hover #A
+{
+    left: 17px;
+    top: -3px;
+}
+
+#at-plus-container:hover #B
+{
+    left: 4px;
+    top: 35px;
+}
+
+#at-plus-container:hover #C
+{
+    left: 20px;
+    top: 70px;
+}
+
+#at-plus-container:hover #D
+{
+    left: 53px;
+    top: 95px;
+}
+
+#at-plus-container:hover #E
+{
+    left: 97px;
+    top: 93px;
+}
+
+.disable
+{
+    background-color: rgba(100,100,100,0.8) !important;
+    color: white !important;
+}
+
+.enable
+{
+    background-color: rgba(48, 63, 159, 1) !important;
+    color: rgb(88, 193, 147) !important;
+}
+
+#show
+{
+    color: black;
+    width: 170px;
+    position: absolute;
+    height: 20px;
+    left: -65px;
+    top: -180px;
+}

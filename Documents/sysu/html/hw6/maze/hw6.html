@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> maze </title>
+	<link href="hw6.css" type="text/css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+	<h1>The Amazing Mouse Maze!</h1>
+	<h2>Move your mouse over the "S" to begin.</h2>
+	<h2 id = "result"></h2>
+	<div id = "maze">
+		<div id = "wall">
+			<div class = "w" id = "wall_1">
+			</div>
+			<div class = "w" id = "wall_2">
+			</div>
+			<div class = "w" id = "wall_3">
+			</div>
+			<div class = "w" id = "wall_5">
+			</div>
+			<div class = "w" id = "wall_4">
+			</div>
+		</div>
+		<div id = "road">
+			<div id = "road_1">
+				<img id = "dog" src = "dog.jpeg" class = "dogg"></img>
+				<div id = "start">S</div>
+			</div>
+			<div id = "road_5">
+				<div id = "cheat"></div>
+				<div id = "end">E</div>
+			</div>
+		</div>
+	</div>
+	<div id = "e">
+		<p> The object of this game is to guide the mouse cursor through the start area <br />and get to the end area.Be sure to void the walls:</p>
+		<div id= "wa"></div>
+		<p>Good luck!</p>
+	</div>
+	<script src="hw6.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+h1, h2, p{
+	text-align: center;
+}
+
+#result {
+	height: 20px;
+	width: 100%;
+}
+#maze {
+	width: 500px;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+}
+#wall {
+	position: relative;
+}
+#wa {
+	margin:0 auto;
+	background-color: #eeeeee;
+	border:solid black 1px;
+	width: 100px;
+	height: 30px;
+}
+.w {
+	background-color: #eeeeee;
+}
+.red {
+	background-color: red;
+}
+div#wall div{
+	border-left: solid black 1px;
+	border-right: solid black 1px;
+	padding: 0px;
+	margin: 0px;
+}
+#wall_1 {
+	/*background-color:#eeeeee;*/
+	position: absolute;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: 498px;
+}
+#wall_2,#wall_3{
+	/*background-color:#eeeeee;*/
+	height: 149px;
+	width: 150px;
+	border-bottom: solid black 1px;
+	border-top: solid #eeeeee 1px;
+}
+#wall_2 {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+#wall_3 {
+	position: absolute;
+	top: 50px;
+	right: 0px;
+}
+#wall_4 {
+	/*background-color:#eeeeee;*/
+	width: 100px;
+	height: 149px;
+	position: absolute;
+	left: 200px;
+	top: 100px;
+	border-top: solid black 1px;
+	border-bottom: solid #eeeeee 1px;
+}
+#wall_5 {
+	/*background-color:#eeeeee;*/
+	width: 498px;
+	height: 50px;
+	position: absolute;
+	top: 250px;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+}
+#start, #end{
+	border:solid black 1px;
+	width: 40px;
+	height: 40px;
+	margin: 4px 2.5px;
+	font-weight: bold;
+	font-size: 28pt;
+	text-align: center;
+
+}
+#start {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #83ff82;
+}
+#end {
+	position: absolute;
+	right:0px;
+	top: 0px;
+	background-color: #8883ff;
+}
+#road {
+	position: relative;
+	top: 200px;
+}
+#cheat {
+	height: 50px;
+	width: 30px;
+	position: absolute;
+	right: 50px;
+}
+#maze:hover {
+	cursor: pointer;
+}
+div#wall div:hover {
+	cursor: default;
+}
+#e {
+	margin: 0 auto;
+	width: 600px;
+}
+#e p {
+	text-align: left;
+}
+#dog {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}

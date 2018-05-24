@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="dds.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Whac-a-mole</h1>
+		<p>Test your skill.How many boxes(moles) can you check(hit)?</p>
+		<div id = "info">
+			<p id = "time">Input Time: <input type = "text" value = "30" id = "countdown" /></p>
+			<button id = "start">Start Game</button> 
+			<p id = "score">Score: <input  type = "text" value = "0" id = "score_" readonly = "readonly"/></p>
+			<input type = "text" value = "Game Over" id = "game" readonly = "readonly"/>
+		</div>
+		<div id = "playground"></div>
+		<div id = "ins">
+			<p>Instructions:</p>
+			<ol>
+				<li>Click on the radio buttons(moles) as they are selected randomly by the computer.</li>
+				<li>1 point per hit, minues 1 point per miss.</li>
+			</ol>
+		</div>
+		<script src="dss.js"></script>
+	</body>
+</html>

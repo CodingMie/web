@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+}
+h2 {
+	margin: 0px;
+}
+#ins {
+	text-align: left;
+	margin: 0 auto;
+	width: 700px;
+}
+#info {
+	width: 285px;
+	margin: 0 auto;
+	text-align: left;
+	line-height: 1.8;
+}
+#time {
+	width: 134px;
+	float: right;
+	margin: 0px;
+}
+#score {
+	clear: right;
+	width: 99px;
+	float: right;
+	margin: 0px;
+}
+#score input, #time input{
+	width: 35px;
+}
+#playground {
+	width: 240px;
+	margin: 30px auto;
+	padding-top: 10.5px;
+	padding-bottom: 10.5px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	clear: both;
+}
+#playground input{
+	margin: 5.5px 4px;
+}
+.red {
+	background-color: red;
+}
