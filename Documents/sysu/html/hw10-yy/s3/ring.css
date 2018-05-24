@@ -1,0 +1,221 @@
+#bottom-positioner {
+	margin: 0 auto;
+	width: 35px;
+	position: relative;
+	top: 500px;
+}
+#button {
+	height: 35px;
+	width: 35px;
+	position: relative;
+}
+#info-bar {
+	transform:scale(0);
+	opacity: 0;
+	position: absolute;
+	left: -47.5px;
+	top: -47.5px;
+	transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear; /* Firefox 4 */
+	-webkit-transition:all 0.2s linear; /* Safari and Chrome */
+	-o-transition:all 0.2s linear; /* Opera */
+}
+.info {
+	border-radius: 50%;
+	background-color: grey;
+	height: 130px;
+	width: 130px;
+	line-height: 130px;
+	font-size: 40pt;
+	text-align: center;
+	color: rgba(75, 183, 129, 1);
+}
+.info ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.info span{
+	margin-left: 10px;
+}
+.page img {
+	vertical-align: top;
+}
+.mine img {
+	vertical-align: -40%;
+}
+#control-ring-container {
+	padding: 0px;
+	margin: 0px;
+	transform:scale(0);
+	opacity: 0;
+	position: absolute;
+	top: -7.5px;
+	left: -7.5px;
+	transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear; /* Firefox 4 */
+	-webkit-transition:all 0.2s linear; /* Safari and Chrome */
+	-o-transition:all 0.2s linear; /* Opera */
+}
+#control-ring {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 50px;
+	height: 50px;
+}
+.apb {
+	min-height: 35px;
+	min-width: 35px;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin: 0 auto;
+	overflow: visible;
+}
+.icon {
+	background-size: 80%;
+	text-align: center;
+	border-radius: 50%;
+	min-height: 35px;
+	min-width: 35px;
+	transform-origin:center center;
+	background-image: url(assets/images/atplus_white.png);
+	background-repeat: no-repeat;
+	background-color: #979DD1;
+	background-position: center;
+	transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear; /* Firefox 4 */
+	-webkit-transition:all 0.2s linear; /* Safari and Chrome */
+	-o-transition:all 0.2s linear; /* Opera */
+	transition-delay:0.2s;
+}
+.user {
+	position: absolute;
+	left: 50px;
+	top: 12px;
+}
+.page{
+	color: white;
+}
+ul.info span {
+	padding-bottom:8px; 
+}
+.mine {
+	color: #079E6E;
+	height: 26px;
+}
+.comment {
+	position: absolute;
+	top: 50px;
+	font-size: 18pt;
+	font-weight: bold;
+	left: 38%;
+	vertical-align: bottom;
+}
+.posted {
+	position: absolute;
+	top: 86px;
+	left: 23px;
+}
+.like {
+	position: absolute;
+	left: 71px;
+	top: 84px;
+}
+.like img {
+	transform:scale(0.92);
+}
+.button{
+	color:rgba(75, 183, 129, 1);
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: center;
+	border-radius: 50%;
+	background-color: rgba(48, 63, 159, 1);
+	width: 30px;
+	height: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-left: 10px;
+} 
+.mask {
+	position: absolute;
+	left: 15px;
+	top: 30px;
+	transition:all 1s linear;
+}
+.history {
+	position: absolute;
+	left: 0px;
+	top: 73px;
+	transition:all 1s linear;
+}
+.message {
+	position: absolute;
+	left: 10px;
+	top: 120px;
+	transition:all 1s linear;
+}
+.setting {
+	position: absolute;
+	left: 50px;
+	top: 156px;
+	transition:all 1s linear;
+}
+.sign {
+	position: absolute;
+	left: 105px;
+	top: 158px;
+	transition:all 1s linear;
+}
+.redpoint {
+	font-size: 8pt;
+	position: relative;
+	top: -20px;
+	background-color: red;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 50%;
+}
+.unclick {
+	opacity: 0;
+}
+/*  hover */
+#button:hover #info-bar {
+	transform:scale(1);
+	opacity: 1;
+	position: absolute;
+	top: -153px;
+	left: -47px;
+}
+#button:hover #control-ring-container {
+	transform:scale(1);
+	opacity: 1;
+	position: absolute;
+	left: -90px;
+	top: -80px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+#button:hover .icon {
+	background-image: url(assets/images/atplus_green.png);
+	background-size: 80%;
+	transform-origin:center center;
+	transform:scale(2,2);
+	background-color: rgba(48, 63, 159, 1);
+	border-radius: 50%;
+	transition-delay:0s;
+	/*background-size:80% 60%;*/
+}
+.letter {
+	font-size: 20pt;
+	position: relative;
+	left: 10px;
+	top: 7px;
+}
